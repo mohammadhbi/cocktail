@@ -1,6 +1,6 @@
 export default function Newsletter() {
   return (
-    <div className="flex flex-col justify-center items-center mt-72 shadow-xl w-200 m-auto rounded-2xl ">
+    <div className="flex flex-col justify-center items-center mt-25 shadow-xl w-200 m-auto rounded-2xl ">
       <h1 className="text-3xl">Our Newsletter</h1>
       <form action="" className="flex flex-col">
         <label htmlFor="">Name :</label>

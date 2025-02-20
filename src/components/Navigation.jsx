@@ -2,6 +2,7 @@ import { NavLink } from "react-router"
 import { listStyle } from "./shared/menubarStayle"
 import { ulList } from "./shared/menubarStayle";
 export default function Navigation() {
+  
   return (
     <nav className="flex justify-around">
         <NavLink to="/">

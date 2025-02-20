@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Newsletter from './pages/Newsletter'
 import Navigation from './components/Navigation';
 import Detail from './components/Detail';
+import NotFound from './pages/NotFound';
 import { useState } from 'react';
 function App() {
   const [items, setItems]=useState([])
@@ -19,7 +20,7 @@ function App() {
       <Route path="/about" element={<About/>}/>
       <Route path="/Newsletter" element={<Newsletter/>}/>
       <Route path="/Detail/:id" element={<Detail items={items}  />}/>
-   
+      <Route path="/*" element={<NotFound />}/>
     </Routes>
   </div>
 
