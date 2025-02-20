@@ -2,8 +2,8 @@ import { useEffect, useState } from "react"
 import axios from "axios"
 import Item from "../components/Item"
 import Form from "../components/shared/Form"
-export default function Home() {
-  const [items, setItems] =useState([])
+export default function Home({items,setItems}) {
+  // const [items, setItems] =useState([])
   const getDataFromApi =async ()=>{
 try {
   const url='https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita'

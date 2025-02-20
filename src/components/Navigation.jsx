@@ -19,7 +19,7 @@ export default function Navigation() {
           </NavLink>
         </li>
         <li className={<listStyle/>}>
-          <NavLink>
+          <NavLink to="/Newsletter">
           Newsletter
           </NavLink>
         </li>
